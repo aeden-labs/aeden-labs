@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/aeden-labs">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
