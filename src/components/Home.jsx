@@ -64,7 +64,7 @@ function Home() {
       id: 6,
       icon: HiComputerDesktop,
       title: "6",
-      desc: "Develop software applications for any needs your business may have.",
+      desc: "Develop software applications for any needs your business may have. Then integrate these with your existing systems and customised to internal and external stakeholder needs.",
     },
   ];
 
@@ -220,10 +220,16 @@ function Home() {
                   </h1>
 
                   <p className="mt-6 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
-                    Is your business overwhelmed with too many apps and systems
-                    that don't synchronise effectively, wasting valuable time in
-                    manual processing, with questionable reliability and slowing
-                    down your decision-making?
+                    Is your business overwhelmed with too many apps and systems not synchronising effectively?
+                  </p>
+                  <p className="mt-2 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
+                    Is valuable time wasted in manual processing?
+                  </p>
+                  <p className="mt-2 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
+                    Does it make you then question the reliability of the data?
+                  </p>
+                  <p className="mt-2 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
+                    And slow down your decision-making?
                   </p>
                   <p className="mt-6 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
                     We solve these problems for you with bespoke data
@@ -297,9 +303,6 @@ function Home() {
                 <h1 className="text-3xl sm:text-5xl md:text-5xl text-[#0c0d12] dm-sans-semi-bold">
                   How We Help You
                 </h1>
-                <p className="mt-2 text-lg sm:text-base md:text-xl text-[#0c0d12]/70 dm-sans-regular uppercase tracking-widest">
-                  THE NUTS & BOLTS
-                </p>
               </div>
 
               <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
@@ -360,7 +363,7 @@ function Home() {
                       We are software engineers specialising in data analytics
                       and data integration. We have developed products and apps
                       for a range of industries from agriculture, transport, and
-                      mining, and have consulted for small, mid-level to large
+                      mining, and have consulted for mid-level to large
                       enterprises, including listed companies.
                     </p>
 
