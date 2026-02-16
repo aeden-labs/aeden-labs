@@ -1,5 +1,6 @@
-import logo_icon from "../../assets/images/logo-icon.png";
+import { Link } from "react-router-dom";
 import { MdMail } from "react-icons/md";
+import logo_icon from "../../assets/images/logo-icon.png";
 
 function Footer() {
   return (
@@ -15,6 +16,13 @@ function Footer() {
                 </div>
                 <div className="dm-sans-regular text-[#f7f9f9]/80">
                   Headquartered in Australia. ABN 14 695 171 405.
+                </div>
+                <div className="dm-sans-regular text-[#6c7bfff2]/80 mt-3">
+                  <Link to="/privacy-policy">
+                    <p>
+                      Privacy Policy
+                    </p>
+                  </Link>
                 </div>
               </div>
             </div>

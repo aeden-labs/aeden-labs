@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Footer from "./sub-components/Footer";
 import HeroGradient from "./ui/HeroGradient";
 import { Card } from "./ui/Card";
@@ -28,6 +28,7 @@ import logo_icon from "../assets/images/logo-icon.png";
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const features = [
     {
@@ -86,6 +87,16 @@ function Home() {
   ];
 
   useEffect(() => {
+    // Automatically scroll to top on page load
+    window.scrollTo(0, 0);
+
+    if (location.hash) {
+      const el = document.querySelector(location.hash);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+
     if (isOpen) {
       document.body.style.overflow = "hidden";
     } else {
@@ -95,7 +106,7 @@ function Home() {
     return () => {
       document.body.style.overflow = "auto";
     };
-  }, [isOpen]);
+  }, [isOpen, location]);
 
   return (
     <div>
@@ -123,12 +134,12 @@ function Home() {
                   </button>
                 </a>
 
-                <a href="#about">
+                <Link to="/#about">
                   <button className="cursor-pointer relative group px-2 py-1 font-medium">
                     About Us
                     <span className="absolute left-0 -bottom-0.5 w-0 h-[2px] bg-[#366cc8] transition-all group-hover:w-full" />
                   </button>
-                </a>
+                </Link>
 
                 <a href="mailto:info@aedenlabs.io">
                   <button className="cursor-pointer px-5 py-3 rounded-lg bg-white/20 backdrop-blur-md border border-white/30 text-white font-semibold hover:bg-white/30 transition-all duration-300 shadow-md">
@@ -177,14 +188,14 @@ function Home() {
                     </button>
                   </a>
 
-                  <a href="#about">
+                  <Link to="/#about">
                     <button
                       onClick={() => setIsOpen(false)}
                       className="cursor-pointer text-left w-full"
                     >
                       About Us
                     </button>
-                  </a>
+                  </Link>
 
                   <a href="mailto:info@aedenlabs.io">
                     <button
@@ -222,14 +233,11 @@ function Home() {
                   <p className="mt-6 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
                     Is your business overwhelmed with too many apps and systems not synchronising effectively?
                   </p>
-                  <p className="mt-2 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
+                  <p className="mt-1 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
                     Is valuable time wasted in manual processing?
                   </p>
-                  <p className="mt-2 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
-                    Does it make you then question the reliability of the data?
-                  </p>
-                  <p className="mt-2 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
-                    And slow down your decision-making?
+                  <p className="mt-1 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
+                    Does it make you then question the reliability of the data and slow down your decision-making?
                   </p>
                   <p className="mt-6 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
                     We solve these problems for you with bespoke data
@@ -361,7 +369,7 @@ function Home() {
 
                     <p className="mt-6 max-w-5xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
                       We are software engineers specialising in data analytics
-                      and data integration. We have developed products and apps
+                      and data integration. Our engineers have experience developing products and apps
                       for a range of industries from agriculture, transport, and
                       mining, and have consulted for mid-level to large
                       enterprises, including listed companies.
