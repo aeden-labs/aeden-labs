@@ -131,10 +131,10 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    This is the privacy notice of Aeden Labs Pty Ltd ACN 695 171 405. In this document, “we”, “our”, or “us” refers to Aeden Labs Pty Ltd.
+                    This is the privacy notice of Aeden Labs Pty Ltd ACN 695 171 405, registered in Australia. In this document, “we”, “our”, or “us” refers to Aeden Labs Pty Ltd.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    We are company number 695 171 405 registered in Australia. Our registered office is at C/- KL Accountants Pty Ltd, 470 St Kilda Road, Melbourne VIC 3004.
+                    Our registered office is at Ground Floor, 470 St Kilda Road, Melbourne VIC 3004.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -368,7 +368,7 @@ function Privacy() {
                     Aeden Labs Pty Ltd
                   </p>
                   <p className="text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    C/- KL Accountants Pty Ltd
+                    Ground Floor
                   </p>
                   <p className="text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
                     470 St Kilda Road
