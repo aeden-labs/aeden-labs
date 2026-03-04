@@ -35,37 +35,37 @@ function Home() {
       id: 1,
       icon: IoMdAnalytics,
       title: "1",
-      desc: "Define clear metrics to measure from reliable data sources: e.g, sales, gross margin, costs, MRR, activation rate, retention, etc.",
+      desc: "Define clear metrics to measure from reliable data sources, such as sales, gross margin, costs, MRR, activation rate, retention, etc.",
     },
     {
       id: 2,
       icon: FaDatabase,
       title: "2",
-      desc: "Create a centralised data warehouse from data scattered across your various tools and systems, to be a reliable source of truth.",
+      desc: "Create a centralised data warehouse that combines information scattered across your various tools and systems into a single, reliable source of truth.",
     },
     {
       id: 3,
       icon: FaChartPie,
       title: "3",
-      desc: "Evolve your reporting to a centralised dashboard that tells your business story - what's happening and why on important KPIs like sales growth, customer lifetime value, improving retention, staff turnover, etc. This dashboard can display results at the executive level to operational level for sales, marketing, product, operations, finance and HR teams.",
+      desc: "Evolve your reporting to a centralised dashboard that tells your business story. Find out what's happening and why on important KPIs like sales growth, customer lifetime value, improving retention, staff turnover, etc. This dashboard can display results at the executive level to operational level for sales, marketing, product, operations, finance and HR teams.",
     },
     {
       id: 4,
       icon: AiFillDashboard,
       title: "4",
-      desc: "Make your dashboards actionable, scalable, flexible and quickly responsive to the changing environment.",
+      desc: "Make your dashboards actionable, scalable, flexible, and quickly responsive to the changing environment.",
     },
     {
       id: 5,
       icon: FaUserFriends,
       title: "5",
-      desc: "Advise on regular data reviews to keep from passively glossing over dashboards, to ensure that a deep, actionable understanding of data will influence sound business decisions.",
+      desc: "Advise on regular data reviews to keep from passively glossing over dashboards, ensuring that a deep, actionable understanding of data will influence sound business decisions.",
     },
     {
       id: 6,
       icon: HiComputerDesktop,
       title: "6",
-      desc: "Develop software applications for any needs your business may have. Then integrate these with your existing systems and customised to internal and external stakeholder needs.",
+      desc: "Develop software applications for any needs your business may have. Then integrate these with your existing systems and customise to internal and external stakeholder needs.",
     },
   ];
 
@@ -231,19 +231,10 @@ function Home() {
                   </h1>
 
                   <p className="mt-6 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
-                    Is your business overwhelmed with too many apps and systems not synchronising effectively?
-                  </p>
-                  <p className="mt-1 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
-                    Is valuable time wasted in manual processing?
-                  </p>
-                  <p className="mt-1 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
-                    Does it make you then question the reliability of the data and slow down your decision-making?
+                    Is your business slowed down by apps and systems that don't sync properly? Is unreliable data and manual processing delaying your decision-making?
                   </p>
                   <p className="mt-6 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
-                    We solve these problems for you with bespoke data
-                    integration and analytics into a centralised reporting
-                    dashboard - "one app to rule them all", customised for your
-                    business.
+                    We solve these problems by delivering bespoke data integration and analytics that centralise your information into a powerful visual dashboard, tailored for your business.
                   </p>
 
                   <a href="#" target="_blank" rel="noopener noreferrer">
@@ -300,11 +291,7 @@ function Home() {
           <section className="bg-[#f9fafc]">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20 md:py-24">
               <p className="max-w-8xl mx-auto text-center text-lg sm:text-base md:text-xl text-#0c0d12 dm-sans-regular leading-relaxed text-balance">
-                We provide consulting, software architecture, and bespoke
-                customer-facing and internal applications, to enhance reporting
-                in real time for more impactful decision-making. We use stunning
-                visual dashboards for data storytelling so you can make faster,
-                smarter data-driven decisions.
+                We provide consulting, software architecture, and bespoke customer-facing and internal applications to enhance reporting in real time, allowing for more impactful decision-making. We use stunning visual dashboards for data storytelling so you can make faster, smarter data-driven decisions.
               </p>
 
               <div className="mt-30 text-center">
