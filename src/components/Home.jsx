@@ -4,7 +4,18 @@ import Footer from "./sub-components/Footer";
 import HeroGradient from "./ui/HeroGradient";
 import { Card } from "./ui/Card";
 import { AiFillDashboard } from "react-icons/ai";
-import { FaChartPie, FaDatabase, FaUserFriends } from "react-icons/fa";
+import {
+  FaHeartbeat,
+  FaHardHat,
+  FaGraduationCap,
+  FaTruck,
+  FaChartLine,
+  FaTools,
+  FaHandsHelping,
+  FaChartPie,
+  FaDatabase,
+  FaUserFriends
+} from "react-icons/fa";
 import { HiComputerDesktop } from "react-icons/hi2";
 import { IoMdAnalytics } from "react-icons/io";
 import { GoArrowUpRight } from "react-icons/go";
@@ -30,12 +41,50 @@ function Home() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
+  const industries = [
+    {
+      name: "Healthcare",
+      icon: FaHeartbeat,
+      colour: "bg-purple-500",
+    },
+    {
+      name: "Mining",
+      icon: FaHardHat,
+      colour: "bg-yellow-600",
+    },
+    {
+      name: "Education",
+      icon: FaGraduationCap,
+      colour: "bg-blue-500",
+    },
+    {
+      name: "Logistics",
+      icon: FaTruck,
+      colour: "bg-indigo-500",
+    },
+    {
+      name: "Financial Services",
+      icon: FaChartLine,
+      colour: "bg-green-500",
+    },
+    {
+      name: "Construction",
+      icon: FaTools,
+      colour: "bg-orange-500",
+    },
+    {
+      name: "Non-Profits",
+      icon: FaHandsHelping,
+      colour: "bg-red-500",
+    },
+  ];
+
   const features = [
     {
       id: 1,
       icon: IoMdAnalytics,
       title: "1",
-      desc: "Define clear metrics to measure from reliable data sources, such as sales, gross margin, costs, MRR, activation rate, retention, etc.",
+      desc: "Define clear metrics to measure from reliable data sources, such as sales, gross margin, costs, MRR, activation rate, retention, staff turnover, etc.",
     },
     {
       id: 2,
@@ -47,7 +96,7 @@ function Home() {
       id: 3,
       icon: FaChartPie,
       title: "3",
-      desc: "Evolve your reporting to a centralised dashboard that tells your business story. Find out what's happening and why on important KPIs like sales growth, customer lifetime value, improving retention, staff turnover, etc. This dashboard can display results at the executive level to operational level for sales, marketing, product, operations, finance and HR teams.",
+      desc: "Evolve your reporting to a centralised dashboard that tells your business story. Find out what's happening and why on important KPIs like sales growth, customer lifetime value, improving retention, etc. This dashboard can display results at the executive level to operational level for sales, marketing, product, operations, finance and HR teams.",
     },
     {
       id: 4,
@@ -293,6 +342,35 @@ function Home() {
               <p className="max-w-8xl mx-auto text-center text-lg sm:text-base md:text-xl text-#0c0d12 dm-sans-regular leading-relaxed text-balance">
                 We provide consulting, software architecture, and bespoke customer-facing and internal applications to enhance reporting in real time, allowing for more impactful decision-making. We use stunning visual dashboards for data storytelling so you can make faster, smarter data-driven decisions.
               </p>
+
+              <div className="mt-30 text-center">
+                <h1 className="text-3xl sm:text-5xl md:text-5xl text-[#0c0d12] dm-sans-semi-bold">
+                  Industries We Serve
+                </h1>
+              </div>
+
+              <div className="mt-12 flex flex-wrap justify-center gap-12">
+                {industries.map((industry, index) => {
+                  const Icon = industry.icon;
+
+                  return (
+                    <div
+                      key={index}
+                      className="flex flex-col items-center group"
+                    >
+                      <div
+                        className={`${industry.colour} w-24 h-24 sm:w-28 sm:h-28 flex items-center justify-center text-white rounded-md shadow-md transition-transform duration-300 group-hover:scale-105`}
+                      >
+                        <Icon size={36} />
+                      </div>
+
+                      <p className="mt-4 text-sm font-semibold text-gray-700 text-center">
+                        {industry.name}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
 
               <div className="mt-30 text-center">
                 <h1 className="text-3xl sm:text-5xl md:text-5xl text-[#0c0d12] dm-sans-semi-bold">
