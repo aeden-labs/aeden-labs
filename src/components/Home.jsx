@@ -45,37 +45,37 @@ function Home() {
     {
       name: "Healthcare",
       icon: FaHeartbeat,
-      colour: "bg-purple-500",
+      gradient: "from-purple-300 via-purple-400 to-purple-500",
     },
     {
       name: "Mining",
       icon: FaHardHat,
-      colour: "bg-yellow-600",
+      gradient: "from-yellow-300 via-yellow-400 to-yellow-500",
     },
     {
       name: "Education",
       icon: FaGraduationCap,
-      colour: "bg-blue-500",
+      gradient: "from-blue-300 via-blue-400 to-blue-500",
     },
     {
       name: "Logistics",
       icon: FaTruck,
-      colour: "bg-indigo-500",
+      gradient: "from-indigo-300 via-indigo-400 to-indigo-500",
     },
     {
       name: "Financial Services",
       icon: FaChartLine,
-      colour: "bg-green-500",
+      gradient: "from-green-300 via-green-400 to-green-500",
     },
     {
       name: "Construction",
       icon: FaTools,
-      colour: "bg-orange-500",
+      gradient: "from-orange-300 via-orange-400 to-orange-500",
     },
     {
       name: "Non-Profits",
       icon: FaHandsHelping,
-      colour: "bg-red-500",
+      gradient: "from-pink-300 via-pink-400 to-pink-500",
     },
   ];
 
@@ -176,13 +176,6 @@ function Home() {
 
               {/* Buttons */}
               <div className="hidden md:flex items-center gap-3">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <button className="cursor-pointer relative group px-2 py-1 font-medium">
-                    View Demo
-                    <span className="absolute left-0 -bottom-0.5 w-0 h-[2px] bg-[#366cc8] transition-all group-hover:w-full" />
-                  </button>
-                </a>
-
                 <Link to="/#about">
                   <button className="cursor-pointer relative group px-2 py-1 font-medium">
                     About Us
@@ -228,15 +221,6 @@ function Home() {
 
                 {/* Buttons */}
                 <div className="flex flex-col justify-center h-full px-8 space-y-8 text-2xl dm-sans-thin text-white">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <button
-                      onClick={() => setIsOpen(false)}
-                      className="cursor-pointer text-left w-full"
-                    >
-                      View Demo
-                    </button>
-                  </a>
-
                   <Link to="/#about">
                     <button
                       onClick={() => setIsOpen(false)}
@@ -286,9 +270,9 @@ function Home() {
                     We solve these problems by delivering bespoke data integration and analytics that centralise your information into a powerful visual dashboard, tailored for your business.
                   </p>
 
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="mailto:info@aedenlabs.io">
                     <button className="cursor-pointer mt-6 px-5 py-3 rounded-lg bg-white/20 backdrop-blur-md border border-white/30 text-white dm-sans-semi-bold hover:bg-white/30 transition-all duration-300 shadow-md flex items-center gap-2">
-                      <span>View our demo</span>
+                      <span>Contact us</span>
                       <GoArrowUpRight className="inline-block" />
                     </button>
                   </a>
@@ -336,32 +320,38 @@ function Home() {
         </header>
 
         <main className="relative">
-          {/* How We Help You */}
           <section className="bg-[#f9fafc]">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20 md:py-24">
               <p className="max-w-8xl mx-auto text-center text-lg sm:text-base md:text-xl text-#0c0d12 dm-sans-regular leading-relaxed text-balance">
                 We provide consulting, software architecture, and bespoke customer-facing and internal applications to enhance reporting in real time, allowing for more impactful decision-making. We use stunning visual dashboards for data storytelling so you can make faster, smarter data-driven decisions.
               </p>
 
-              <div className="mt-30 text-center">
-                <h1 className="text-3xl sm:text-5xl md:text-5xl text-[#0c0d12] dm-sans-semi-bold">
+              {/* Industries We Serve */}
+              <div className="mt-20 text-center">
+                <p className="mt-2 text-lg sm:text-base md:text-xl text-[#0c0d12]/70 dm-sans-regular uppercase tracking-widest">
                   Industries We Serve
-                </h1>
+                </p>
               </div>
 
-              <div className="mt-12 flex flex-wrap justify-center gap-12">
+              <div className="mt-12 flex flex-wrap justify-center gap-10">
                 {industries.map((industry, index) => {
                   const Icon = industry.icon;
 
                   return (
-                    <div
-                      key={index}
-                      className="flex flex-col items-center group"
-                    >
+                    <div key={index} className="flex flex-col items-center group">
                       <div
-                        className={`${industry.colour} w-24 h-24 sm:w-28 sm:h-28 flex items-center justify-center text-white rounded-md shadow-md transition-transform duration-300 group-hover:scale-105`}
+                        className={`
+                          w-24 h-24 sm:w-28 sm:h-28
+                          flex items-center justify-center
+                          rounded-2xl
+                          bg-white/10 backdrop-blur-xl
+                          bg-gradient-to-br ${industry.gradient}
+                          shadow-2xl
+                          transition-transform duration-300
+                          group-hover:scale-105
+                        `}
                       >
-                        <Icon size={36} />
+                        <Icon size={36} className="text-white/90" />
                       </div>
 
                       <p className="mt-4 text-sm font-semibold text-gray-700 text-center">
@@ -372,6 +362,7 @@ function Home() {
                 })}
               </div>
 
+              {/* How We Help You */}
               <div className="mt-30 text-center">
                 <h1 className="text-3xl sm:text-5xl md:text-5xl text-[#0c0d12] dm-sans-semi-bold">
                   How We Help You

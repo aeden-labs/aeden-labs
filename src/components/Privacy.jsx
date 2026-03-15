@@ -40,13 +40,6 @@ function Privacy() {
 
               {/* Buttons */}
               <div className="hidden md:flex items-center gap-3">
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <button className="cursor-pointer relative group px-2 py-1 font-medium">
-                    View Demo
-                    <span className="absolute left-0 -bottom-0.5 w-0 h-[2px] bg-[#366cc8] transition-all group-hover:w-full" />
-                  </button>
-                </a>
-
                 <Link to="/#about">
                   <button className="cursor-pointer relative group px-2 py-1 font-medium">
                     About Us
@@ -92,15 +85,6 @@ function Privacy() {
 
                 {/* Buttons */}
                 <div className="flex flex-col justify-center h-full px-8 space-y-8 text-2xl dm-sans-thin text-white">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <button
-                      onClick={() => setIsOpen(false)}
-                      className="cursor-pointer text-left w-full"
-                    >
-                      View Demo
-                    </button>
-                  </a>
-
                   <Link to="/#about">
                     <button
                       onClick={() => setIsOpen(false)}
