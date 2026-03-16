@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/aeden-labs">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacy-policy" element={<Privacy />} />
