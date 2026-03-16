@@ -3,10 +3,10 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 
 const params = new URLSearchParams(window.location.search);
-const redirect = params.get("redirect");
+const path = params.get("p");
 
-if (redirect) {
-  window.history.replaceState(null, "", redirect);
+if (path) {
+  window.history.replaceState(null, "", path);
 }
 
 createRoot(document.getElementById("root")).render(
