@@ -119,7 +119,8 @@ function NotFound() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+                    The page you are looking for might have been removed, had
+                    its name changed, or is temporarily unavailable.
                   </p>
                 </div>
               </div>

@@ -14,7 +14,7 @@ import {
   FaHandsHelping,
   FaChartPie,
   FaDatabase,
-  FaUserFriends
+  FaUserFriends,
 } from "react-icons/fa";
 import { HiComputerDesktop } from "react-icons/hi2";
 import { IoMdAnalytics } from "react-icons/io";
@@ -132,7 +132,7 @@ function Home() {
     { id: 11, src: vuejs_logo },
     { id: 12, src: reactjs_logo },
     { id: 13, src: html5_logo },
-    { id: 14, src: css3_logo }
+    { id: 14, src: css3_logo },
   ];
 
   useEffect(() => {
@@ -264,10 +264,15 @@ function Home() {
                   </h1>
 
                   <p className="mt-6 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
-                    Is your business slowed down by apps and systems that don't sync properly? Is unreliable data and manual processing delaying your decision-making?
+                    Is your business slowed down by apps and systems that don't
+                    sync properly? Is unreliable data and manual processing
+                    delaying your decision-making?
                   </p>
                   <p className="mt-6 max-w-xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
-                    We solve these problems by delivering bespoke data integration and analytics that centralise your information into a powerful visual dashboard, tailored for your business.
+                    We solve these problems by delivering bespoke data
+                    integration and analytics that centralise your information
+                    into a powerful visual dashboard, tailored for your
+                    business.
                   </p>
 
                   <a href="mailto:info@aedenlabs.io">
@@ -323,7 +328,11 @@ function Home() {
           <section className="bg-[#f9fafc]">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20 md:py-24">
               <p className="max-w-8xl mx-auto text-center text-lg sm:text-base md:text-xl text-#0c0d12 dm-sans-regular leading-relaxed text-balance">
-                We provide consulting, software architecture, and bespoke customer-facing and internal applications to enhance reporting in real time, allowing for more impactful decision-making. We use stunning visual dashboards for data storytelling so you can make faster, smarter data-driven decisions.
+                We provide consulting, software architecture, and bespoke
+                customer-facing and internal applications to enhance reporting
+                in real time, allowing for more impactful decision-making. We
+                use stunning visual dashboards for data storytelling so you can
+                make faster, smarter data-driven decisions.
               </p>
 
               {/* Industries We Serve */}
@@ -338,7 +347,10 @@ function Home() {
                   const Icon = industry.icon;
 
                   return (
-                    <div key={index} className="flex flex-col items-center group">
+                    <div
+                      key={index}
+                      className="flex flex-col items-center group"
+                    >
                       <div
                         className={`
                           w-24 h-24 sm:w-28 sm:h-28
@@ -414,7 +426,10 @@ function Home() {
               <div className="absolute inset-0 bg-[radial-gradient(900px_500px_at_82%_12%,rgba(51,214,255,0.08),transparent_55%)] blur-2xl" />
             </div>
 
-            <div id="about" className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div
+              id="about"
+              className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+            >
               <div className="pt-20 sm:pt-24 md:pt-18 pb-44 sm:pb-26 md:pb-34">
                 {/* About Us */}
                 <div className="justify-items-center">
@@ -425,18 +440,21 @@ function Home() {
 
                     <p className="mt-6 max-w-5xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
                       We are software engineers specialising in data analytics
-                      and data integration. Our engineers have experience developing products and apps
-                      for a range of industries from agriculture, transport, and
-                      mining, and have consulted for mid-level to large
-                      enterprises, including listed companies.
+                      and data integration. Our engineers have experience
+                      developing products and apps for a range of industries
+                      from agriculture, transport, and mining, and have
+                      consulted for mid-level to large enterprises, including
+                      listed companies.
                     </p>
 
                     <p className="mt-6 max-w-5xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
-                      Contact us at <a
+                      Contact us at{" "}
+                      <a
                         href="mailto:info@aedenlabs.io"
                         className="bg-clip-text text-transparent"
                         style={{
-                          backgroundImage: "linear-gradient(90deg, rgba(51, 214, 255, 0.95), rgba(108, 123, 255, 0.95), rgba(255, 77, 216, 0.95)",
+                          backgroundImage:
+                            "linear-gradient(90deg, rgba(51, 214, 255, 0.95), rgba(108, 123, 255, 0.95), rgba(255, 77, 216, 0.95)",
                         }}
                       >
                         info@aedenlabs.io

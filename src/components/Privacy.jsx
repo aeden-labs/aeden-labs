@@ -115,10 +115,13 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    This is the privacy notice of Aeden Labs Pty Ltd ACN 695 171 405, registered in Australia. In this document, “we”, “our”, or “us” refers to Aeden Labs Pty Ltd.
+                    This is the privacy notice of Aeden Labs Pty Ltd ACN 695 171
+                    405, registered in Australia. In this document, “we”, “our”,
+                    or “us” refers to Aeden Labs Pty Ltd.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    Our registered office is at Ground Floor, 470 St Kilda Road, Melbourne VIC 3004.
+                    Our registered office is at Ground Floor, 470 St Kilda Road,
+                    Melbourne VIC 3004.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -126,19 +129,37 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    This privacy notice aims to inform you about how we collect and handle any information that we collect from you, or that you provide to us. It covers both information that could identify you (“personal information”) and information that could not.
+                    This privacy notice aims to inform you about how we collect
+                    and handle any information that we collect from you, or that
+                    you provide to us. It covers both information that could
+                    identify you (“personal information”) and information that
+                    could not.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    We are extremely concerned to protect your privacy and confidentiality. We understand that all users of our web site are quite rightly concerned to know that their data will not be used for any purpose unintended by them, and will not accidentally fall into the hands of a third party. Our policy is both specific and strict. It complies with Australian law. If you think our policy falls short of your expectations or that we are failing to abide by our policy, <span className="font-bold">do please tell us.</span>
+                    We are extremely concerned to protect your privacy and
+                    confidentiality. We understand that all users of our web
+                    site are quite rightly concerned to know that their data
+                    will not be used for any purpose unintended by them, and
+                    will not accidentally fall into the hands of a third party.
+                    Our policy is both specific and strict. It complies with
+                    Australian law. If you think our policy falls short of your
+                    expectations or that we are failing to abide by our policy,{" "}
+                    <span className="font-bold">do please tell us.</span>
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    We regret that if there are one or more points below with which you are not happy, your only recourse is to leave our web site immediately.
+                    We regret that if there are one or more points below with
+                    which you are not happy, your only recourse is to leave our
+                    web site immediately.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    Except as set out below, we do not share, or sell, or disclose to a third party, any personally identifiable information collected at this site.
+                    Except as set out below, we do not share, or sell, or
+                    disclose to a third party, any personally identifiable
+                    information collected at this site.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    Here is a list of the information we collect from you, either through our web site or because you give it to us in some other way, and why it is necessary to collect it:
+                    Here is a list of the information we collect from you,
+                    either through our web site or because you give it to us in
+                    some other way, and why it is necessary to collect it:
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -146,7 +167,14 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    This includes basic identification and contact information, such as your name and contact details and also includes all information given to us in the course of your business and ours, such as information you give us in your capacity as our client. We undertake to preserve the confidentiality of the information and of the terms of our relationship. It is not used for any other purpose. We expect you to reciprocate this policy.
+                    This includes basic identification and contact information,
+                    such as your name and contact details and also includes all
+                    information given to us in the course of your business and
+                    ours, such as information you give us in your capacity as
+                    our client. We undertake to preserve the confidentiality of
+                    the information and of the terms of our relationship. It is
+                    not used for any other purpose. We expect you to reciprocate
+                    this policy.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
                     This information is used:
@@ -155,10 +183,19 @@ function Privacy() {
                     <li>to provide you with the services which you request;</li>
                     <li>for verifying your identity for security purposes;</li>
                     <li>for marketing our services and products;</li>
-                    <li>information which does not identify any individual may be used in a general way by us or third parties, to provide class information, for example relating to demographics or usage of a particular page or service.</li>
+                    <li>
+                      information which does not identify any individual may be
+                      used in a general way by us or third parties, to provide
+                      class information, for example relating to demographics or
+                      usage of a particular page or service.
+                    </li>
                   </ul>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    We keep information, which forms part of our business record for a minimum of seven years. That is because we may need it in some way to support a claim or defence in court. That is also the period within which our tax collecting authorities may demand to know it.
+                    We keep information, which forms part of our business record
+                    for a minimum of seven years. That is because we may need it
+                    in some way to support a claim or defence in court. That is
+                    also the period within which our tax collecting authorities
+                    may demand to know it.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -166,13 +203,30 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    This information is recognised by our servers and the pages that you visit are recorded. We shall not under any circumstances, divulge your e-mail address to any person who is not an employee or contractor of ours and who does not need to know, either generally or specifically. This information is used:
+                    This information is recognised by our servers and the pages
+                    that you visit are recorded. We shall not under any
+                    circumstances, divulge your e-mail address to any person who
+                    is not an employee or contractor of ours and who does not
+                    need to know, either generally or specifically. This
+                    information is used:
                   </p>
                   <ul className="list-disc pl-10 mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    <li>to correspond with you or deal with you as you expect;</li>
-                    <li>in a collective way not referable to any particular individual, for the purpose of quality control and improvement of our website;</li>
-                    <li>to send you news about the services to which you have signed up;</li>
-                    <li>to tell you about other of our services or services of sister websites.</li>
+                    <li>
+                      to correspond with you or deal with you as you expect;
+                    </li>
+                    <li>
+                      in a collective way not referable to any particular
+                      individual, for the purpose of quality control and
+                      improvement of our website;
+                    </li>
+                    <li>
+                      to send you news about the services to which you have
+                      signed up;
+                    </li>
+                    <li>
+                      to tell you about other of our services or services of
+                      sister websites.
+                    </li>
                   </ul>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -180,7 +234,11 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    Information you send to us by posting to a forum or blog or in your advertisement, is stored on our servers. We do not specifically use that information except to allow it to be read, but you will see in our terms and conditions that we reserve a right to use it in any way we decide.
+                    Information you send to us by posting to a forum or blog or
+                    in your advertisement, is stored on our servers. We do not
+                    specifically use that information except to allow it to be
+                    read, but you will see in our terms and conditions that we
+                    reserve a right to use it in any way we decide.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -188,7 +246,12 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    We may use software embedded in our website (such as JavaScript) to collect information about pages you view and how you have reached them, what you do when you visit a page, the length of time you remain on the page, and how we perform in providing content to you. We do not presently associate such information with an identifiable person.
+                    We may use software embedded in our website (such as
+                    JavaScript) to collect information about pages you view and
+                    how you have reached them, what you do when you visit a
+                    page, the length of time you remain on the page, and how we
+                    perform in providing content to you. We do not presently
+                    associate such information with an identifiable person.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -196,7 +259,13 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    This information is never taken by us either through our website or otherwise. At the point of payment, you are transferred to a secure page on the website of PayPal / Square / Stripe or some other reputable payment service provider. That page may be dressed in our “livery”, but it is not controlled by us. Our staff and contractors never have access to it.
+                    This information is never taken by us either through our
+                    website or otherwise. At the point of payment, you are
+                    transferred to a secure page on the website of PayPal /
+                    Square / Stripe or some other reputable payment service
+                    provider. That page may be dressed in our “livery”, but it
+                    is not controlled by us. Our staff and contractors never
+                    have access to it.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -204,7 +273,10 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    When you have agreed to set up a direct debit arrangement, the information you have given to us is passed to our bank, for processing according to our instructions. We may keep a copy.
+                    When you have agreed to set up a direct debit arrangement,
+                    the information you have given to us is passed to our bank,
+                    for processing according to our instructions. We may keep a
+                    copy.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -212,7 +284,12 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    To assist in combating fraud, we share information with credit reference agencies, so far as it relates to clients or customers who instruct their credit card issuer to cancel payment to us without having first provided an acceptable reason to us and given us the opportunity to refund their money.
+                    To assist in combating fraud, we share information with
+                    credit reference agencies, so far as it relates to clients
+                    or customers who instruct their credit card issuer to cancel
+                    payment to us without having first provided an acceptable
+                    reason to us and given us the opportunity to refund their
+                    money.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -220,15 +297,26 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    Although we do not disclose your personal information to any third party (except as set out in this notice), we do receive data which is indirectly made up from your personal information, from software services such as Google Analytics and others. No such information is identifiable to you.
+                    Although we do not disclose your personal information to any
+                    third party (except as set out in this notice), we do
+                    receive data which is indirectly made up from your personal
+                    information, from software services such as Google Analytics
+                    and others. No such information is identifiable to you.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
-                    Content you provide to us with a view to be used by third party
+                    Content you provide to us with a view to be used by third
+                    party
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    If you provide information to us with a view to it being read, copied, downloaded, or used by other people, we accept no responsibility for what that third party may do with it. It is up to you to satisfy yourself about the privacy level of every person who might see your information. If it is available to the World, neither we nor you have no control whatever as to how it is used.
+                    If you provide information to us with a view to it being
+                    read, copied, downloaded, or used by other people, we accept
+                    no responsibility for what that third party may do with it.
+                    It is up to you to satisfy yourself about the privacy level
+                    of every person who might see your information. If it is
+                    available to the World, neither we nor you have no control
+                    whatever as to how it is used.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -236,7 +324,10 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    When you call our helpline, we collect Calling Line Identification (CLI) information. We use this information to help improve the efficiency and effectiveness of our helpline.
+                    When you call our helpline, we collect Calling Line
+                    Identification (CLI) information. We use this information to
+                    help improve the efficiency and effectiveness of our
+                    helpline.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -244,7 +335,14 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    When you send a message, we collect the data you have given to us in that message in order to obtain confirmation that you are entitled to receive the information and to provide to you the information you need. We record your request and our reply in order to increase the efficiency of our business / organisation. We do not keep any personally identifiable information associated with your message, such as your name or email address.
+                    When you send a message, we collect the data you have given
+                    to us in that message in order to obtain confirmation that
+                    you are entitled to receive the information and to provide
+                    to you the information you need. We record your request and
+                    our reply in order to increase the efficiency of our
+                    business / organisation. We do not keep any personally
+                    identifiable information associated with your message, such
+                    as your name or email address.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -252,10 +350,20 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    When we receive a complaint, we record all the information you have given to us. We use that information to resolve your complaint. If your complaint reasonably requires us to contact some other person, we may decide to give to that other person some of the information contained in your complaint. We do this as infrequently as possible, but it is a matter for our sole discretion as to whether we do give information, and if we do, what that information is.
+                    When we receive a complaint, we record all the information
+                    you have given to us. We use that information to resolve
+                    your complaint. If your complaint reasonably requires us to
+                    contact some other person, we may decide to give to that
+                    other person some of the information contained in your
+                    complaint. We do this as infrequently as possible, but it is
+                    a matter for our sole discretion as to whether we do give
+                    information, and if we do, what that information is.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    We may also compile statistics showing information obtained from this source to assess the level of service we provide, but not in a way that could identify you or any other person.
+                    We may also compile statistics showing information obtained
+                    from this source to assess the level of service we provide,
+                    but not in a way that could identify you or any other
+                    person.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -263,10 +371,17 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    If you send us information in connection with a job application, we may keep it for up to three years in case we decide to contact you at a later date.
+                    If you send us information in connection with a job
+                    application, we may keep it for up to three years in case we
+                    decide to contact you at a later date.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    If we employ you, we collect information about you and your work from time to time throughout the period of your employment. This information will be used only for purposes directly relevant to your employment. After your employment has ended, we will keep your file for six years before destroying or deleting it.
+                    If we employ you, we collect information about you and your
+                    work from time to time throughout the period of your
+                    employment. This information will be used only for purposes
+                    directly relevant to your employment. After your employment
+                    has ended, we will keep your file for six years before
+                    destroying or deleting it.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -274,7 +389,10 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    We do not market to children, nor do we sell products or services for purchase by children. If you are under 18, you may use our website only with consent from a parent or guardian.
+                    We do not market to children, nor do we sell products or
+                    services for purchase by children. If you are under 18, you
+                    may use our website only with consent from a parent or
+                    guardian.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -282,7 +400,10 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    We are subject to the law like everyone else. We may be required to give information to legal authorities if they so request or if they have the proper authorisation such as a search warrant or court order.
+                    We are subject to the law like everyone else. We may be
+                    required to give information to legal authorities if they so
+                    request or if they have the proper authorisation such as a
+                    search warrant or court order.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -290,7 +411,11 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    This privacy policy has been compiled so as to comply with the law of every jurisdiction in which we aim to do business. If you think it fails to satisfy the law of your country, we would like to hear from you, but ultimately it is your choice as to whether you wish to use our website.
+                    This privacy policy has been compiled so as to comply with
+                    the law of every jurisdiction in which we aim to do
+                    business. If you think it fails to satisfy the law of your
+                    country, we would like to hear from you, but ultimately it
+                    is your choice as to whether you wish to use our website.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -298,7 +423,12 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    At any time you may review or update the personally identifiable information that we hold about you, by contacting us at the address below. To better safeguard your information, we will also take reasonable steps to verify your identity before granting access or making corrections to your information.
+                    At any time you may review or update the personally
+                    identifiable information that we hold about you, by
+                    contacting us at the address below. To better safeguard your
+                    information, we will also take reasonable steps to verify
+                    your identity before granting access or making corrections
+                    to your information.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -306,7 +436,12 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    Our website is hosted in Australia. We may also use outsourced services in countries outside Australia from time to time in other aspects of our business.  Accordingly data obtained within Australia may be processed outside Australia and data obtained in any other country may be processed within or outside that country.
+                    Our website is hosted in Australia. We may also use
+                    outsourced services in countries outside Australia from time
+                    to time in other aspects of our business. Accordingly data
+                    obtained within Australia may be processed outside Australia
+                    and data obtained in any other country may be processed
+                    within or outside that country.
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -314,16 +449,31 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    If you have a complaint about how we have collected or handled your personal information, please contact us. We will endeavour in the first instance to deal with your complaint and take action to resolve the matter.
+                    If you have a complaint about how we have collected or
+                    handled your personal information, please contact us. We
+                    will endeavour in the first instance to deal with your
+                    complaint and take action to resolve the matter.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    If your complaint cannot be resolved at the first instance, we will ask you to lodge a formal complaint in writing, explaining the circumstances of the matter that you are complaining about, how you believe your privacy has been interfered with and how you believe your complaint should be resolved.
+                    If your complaint cannot be resolved at the first instance,
+                    we will ask you to lodge a formal complaint in writing,
+                    explaining the circumstances of the matter that you are
+                    complaining about, how you believe your privacy has been
+                    interfered with and how you believe your complaint should be
+                    resolved.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    We will acknowledge receipt of your formal complaint and indicate the timeframe that you can expect a response. We will endeavour to resolve the complaint as quickly as possible, but if the matter is complex and our investigation may take longer, we will let you know when we expect to provide our response.
+                    We will acknowledge receipt of your formal complaint and
+                    indicate the timeframe that you can expect a response. We
+                    will endeavour to resolve the complaint as quickly as
+                    possible, but if the matter is complex and our investigation
+                    may take longer, we will let you know when we expect to
+                    provide our response.
                   </p>
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    If you are unhappy with our response, you may refer your complaint to the Office of the Australian Information Commissioner.
+                    If you are unhappy with our response, you may refer your
+                    complaint to the Office of the Australian Information
+                    Commissioner.
                   </p>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-semi-bold leading-relaxed">
@@ -331,15 +481,17 @@ function Privacy() {
                   </p>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    Emailing <a
-                        href="mailto:info@aedenlabs.io"
-                        className="bg-clip-text text-transparent"
-                        style={{
-                          backgroundImage: "linear-gradient(90deg, rgba(51, 214, 255, 0.95), rgba(108, 123, 255, 0.95), rgba(255, 77, 216, 0.95)",
-                        }}
-                      >
-                        info@aedenlabs.io
-                      </a>
+                    Emailing{" "}
+                    <a
+                      href="mailto:info@aedenlabs.io"
+                      className="bg-clip-text text-transparent"
+                      style={{
+                        backgroundImage:
+                          "linear-gradient(90deg, rgba(51, 214, 255, 0.95), rgba(108, 123, 255, 0.95), rgba(255, 77, 216, 0.95)",
+                      }}
+                    >
+                      info@aedenlabs.io
+                    </a>
                   </p>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
@@ -368,15 +520,17 @@ function Privacy() {
                     Officer of the Australian Information Commissioner (OAIC)
                   </p>
                   <p className="text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    Email: <a
-                        href="mailto:enquiries@oaic.gov.au"
-                        className="bg-clip-text text-transparent"
-                        style={{
-                          backgroundImage: "linear-gradient(90deg, rgba(51, 214, 255, 0.95), rgba(108, 123, 255, 0.95), rgba(255, 77, 216, 0.95)",
-                        }}
-                      >
-                        enquiries@oaic.gov.au
-                      </a>
+                    Email:{" "}
+                    <a
+                      href="mailto:enquiries@oaic.gov.au"
+                      className="bg-clip-text text-transparent"
+                      style={{
+                        backgroundImage:
+                          "linear-gradient(90deg, rgba(51, 214, 255, 0.95), rgba(108, 123, 255, 0.95), rgba(255, 77, 216, 0.95)",
+                      }}
+                    >
+                      enquiries@oaic.gov.au
+                    </a>
                   </p>
 
                   <h1 className="dm-sans-semi-bold mt-10 mb-5 text-lg sm:text-xl md:text-2xl leading-[0.95] text-balance">
@@ -384,11 +538,14 @@ function Privacy() {
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    As we plan to ensure our privacy policy remains current, this policy is subject to change. Please return periodically to review our privacy policy.
+                    As we plan to ensure our privacy policy remains current,
+                    this policy is subject to change. Please return periodically
+                    to review our privacy policy.
                   </p>
 
                   <p className="mt-6 text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed">
-                    If you have any question regarding the privacy policy, please contact us through the contact page.
+                    If you have any question regarding the privacy policy,
+                    please contact us through the contact page.
                   </p>
                 </div>
               </div>

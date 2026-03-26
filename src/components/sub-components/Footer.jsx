@@ -12,16 +12,15 @@ function Footer() {
               <img src={logo_icon} width="50" alt="Aeden Labs" />
               <div>
                 <div className="dm-sans-regular text-[#f7f9f9]">
-                  &copy; {new Date().getFullYear()} Aeden Labs Pty Ltd ACN 695 171 405. ABN 14 695 171 405. All rights reserved.
+                  &copy; {new Date().getFullYear()} Aeden Labs Pty Ltd ACN 695
+                  171 405. ABN 14 695 171 405. All rights reserved.
                 </div>
                 <div className="dm-sans-regular text-[#f7f9f9]/80">
                   Ground Floor, 470 St Kilda Road, Melbourne VIC 3004.
                 </div>
                 <div className="dm-sans-regular text-[#6c7bfff2]/80 mt-3">
                   <Link to="/privacy-policy">
-                    <p>
-                      Privacy Policy
-                    </p>
+                    <p>Privacy Policy</p>
                   </Link>
                 </div>
               </div>
@@ -36,7 +35,7 @@ function Footer() {
         </div>
       </footer>
     </div>
-  )
+  );
 }
 
 export default Footer;
