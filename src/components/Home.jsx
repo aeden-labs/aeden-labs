@@ -442,9 +442,8 @@ function Home() {
                       We are software engineers specialising in data analytics
                       and data integration. Our engineers have experience
                       developing products and apps for a range of industries
-                      from agriculture, transport, and mining, and have
-                      consulted for mid-level to large enterprises, including
-                      listed companies.
+                      from healthcare, agriculture, transport, and mining, and
+                      have consulted for various sized enterprises.
                     </p>
 
                     <p className="mt-6 max-w-5xl text-sm sm:text-base md:text-lg text-white/72 dm-sans-regular leading-relaxed text-balance">
