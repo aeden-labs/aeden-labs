@@ -36,9 +36,11 @@ import html5_logo from "../assets/images/home/html5-logo.png";
 import css3_logo from "../assets/images/home/css3-logo.png";
 import logo_white from "../assets/images/logo-white.png";
 import logo_icon from "../assets/images/logo-icon.png";
+import demo_video from "../assets/videos/demo.mp4";
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
+  const [showVideoControls, setShowVideoControls] = useState(false);
   const location = useLocation();
 
   const industries = [
@@ -313,8 +315,24 @@ function Home() {
                         </div>
                       </div>
 
-                      <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 dm-sans-regular">
-                        Demo coming soon.
+                      <div className="mt-6 overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+                        <video
+                          className="w-full h-auto object-cover rounded-2xl aspect-video"
+                          autoPlay
+                          muted
+                          loop
+                          playsInline
+                          preload="auto"
+                          controls={showVideoControls}
+                          controlsList="nodownload noplaybackrate noremoteplayback"
+                          disablePictureInPicture
+                          onMouseEnter={() => setShowVideoControls(true)}
+                          onMouseLeave={() => setShowVideoControls(false)}
+                          onTouchStart={() => setShowVideoControls(true)}
+                        >
+                          <source src={demo_video} type="video/mp4" />
+                          Your browser does not support the video tag.
+                        </video>
                       </div>
                     </div>
                   </Card>
